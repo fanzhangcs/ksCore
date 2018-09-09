@@ -3,7 +3,7 @@ The code is for computing the (k,s)-core which is published in the paper "Discov
 
 
 # files
-khash.h - a hash table from https://github.com/clibs/hash
+khash.h - a hash table from https://github.com/attractivechaos/klib
 
 ksCore.cpp - source code 
 
