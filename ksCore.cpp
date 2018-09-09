@@ -540,7 +540,7 @@ void dataOutput(double &runtime)
 
 		sprintf(record, "ks%ld", ksCoreSize);
 		fwrite(record, sizeof(*record), strlen(record), fs);
-		fsch = putc('\t', fs);
+		fsch = putc('\n', fs);
 	}
 }
 
